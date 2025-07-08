@@ -13,7 +13,7 @@ export default defineConfig([
     },
     languageOptions: {
       globals: globals.browser,
-      sourceType: 'script',
+      sourceType: 'module',
     },
     rules: {
       ...js.configs.recommended.rules,
